@@ -5,30 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cb5c60f-7f48-4a2f-988a-ad955c60eefb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CommonFunctions/ActionPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/MyInfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/HomePageObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/InfoPageObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPageObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/TaskPageObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReusableComponents/ActionEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReusableComponents/ListenersImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/BrowserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/ExtentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/ExtentReportNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestScenarios/TestMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommonFunctions/ActionClassPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ActionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ConfigPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/DetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/DriverPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ExtentLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ExtentTestParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ListenersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CommonFunctions/ActionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Objects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/MyInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Objects/MyInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReusableComponents/ActionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReusableComponents/ActionEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestScenarios/TestMethods.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/HHRA1231/IdeaProjects/AdvancedFramework/src/main/resources"
+    "last_opened_file_path": "E:/Software Testing/Java/AdvancedFramework"
   }
 }]]></component>
   <component name="RecentsManager">

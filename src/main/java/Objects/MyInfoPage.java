@@ -12,7 +12,7 @@ public class MyInfoPage {
     WebDriver driver;
 
     public MyInfoPage(WebDriver driver){
-        this.driver=driver;
+        this.driver=DriverManager.getDriver();
     }
 
     @FindBy(xpath = "(//input)[5]")

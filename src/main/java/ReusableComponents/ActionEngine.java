@@ -11,7 +11,7 @@ import TestBase.ExtentFactory;
 
 public class ActionEngine {
 
-    //Customized sendkeys method --> To log sendkeys message for every occ.
+    //Customized sendKeys method --> To log sendKeys message for every occ.
     public void sendKeysCustom(WebElement element, String fieldName, String valueToBeSent){
         try {
             element.sendKeys(valueToBeSent);

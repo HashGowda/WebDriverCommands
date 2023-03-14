@@ -2,33 +2,21 @@ package Objects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class LoginPage {
 
-    WebDriver driver;
+    @FindBy(xpath = "//input[@placeholder='Username']")
+    public WebElement userName;
 
-    public LoginPage(WebDriver driver){
-        this.driver=driver;
-    }
+    @FindBy(xpath = "//input[@placeholder='Password']")
+    public WebElement password;
 
-    By userName = By.xpath("//input[@placeholder='Username']");
-    By password = By.xpath("//input[@placeholder='Password']");
-    By loginBtn = By.xpath("//button[normalize-space()='Login']");
-    By myInfo = By.xpath("//span[normalize-space()='My Info']");
+    @FindBy(xpath = "//button[normalize-space()='Login']")
+    public WebElement loginBtn;
 
-    public void sendData(String usrName, String pswrd){
-        try {
-            driver.findElement(userName).sendKeys(usrName);
-            Thread.sleep(2000);
-            driver.findElement(password).sendKeys(pswrd);
-            Thread.sleep(2000);
-            driver.findElement(loginBtn).click();
-            Thread.sleep(2000);
-            driver.findElement(myInfo).click();
-            Thread.sleep(2000);
-        } catch (Exception e){
-            System.out.println("Exceptions Caught "+e.getMessage());
-        }
-
-    }
+    @FindBy(xpath = "//span[normalize-space()='My Info']")
+    public WebElement myInfo;
 }
+
