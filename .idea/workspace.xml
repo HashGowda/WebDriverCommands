@@ -5,24 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cb5c60f-7f48-4a2f-988a-ad955c60eefb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CommonFunctions/ActionClassPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ActionPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ConfigPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/DetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/DriverPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ExtentLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ExtentTestParent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/ListenersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Base/ActionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Base/ListenersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Base/MyInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/InValidLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CommonFunctions/ActionPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Objects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/MyInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Objects/MyInfoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReusableComponents/ActionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReusableComponents/ActionEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestScenarios/TestMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CommonFunctions/ActionClassPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/GenericPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/ActionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/ConfigPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/ConfigPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/DetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/DetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/DriverPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/DriverPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/ExtentLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/ExtentLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/ExtentTestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/ExtentTestManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/ExtentTestParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/ExtentTestParent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/ListenersPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Objects/MyInfoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/HomePageObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/InfoPageObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPageObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/TaskPageObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReusableComponents/ActionEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReusableComponents/ListenersImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/BrowserFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/ExtentFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/ExtentReportNG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +69,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/Software Testing/Java/AdvancedFramework"
+    "last_opened_file_path": "E:/Software Testing/Java/AdvancedFramework",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -61,11 +78,111 @@
       <recent name="C:\Users\HHRA1231\IdeaProjects\AdvancedFramework\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/HHRA1231/IdeaProjects/AdvancedFramework/testng.xml">
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="C:/Users/HHRA1231/IdeaProjects/AdvancedFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvancedFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InValidLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.InValidLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -74,25 +191,45 @@
     </configuration>
     <configuration name="TestMethods" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvancedFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestScenarios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="TestScenarios" />
       <option name="MAIN_CLASS_NAME" value="TestScenarios.TestMethods" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.InValidLoginTest" />
+      <item itemvalue="TestNG.C:/Users/HHRA1231/IdeaProjects/AdvancedFramework/testng.xml" />
+      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.LoginTest (1)" />
+      <item itemvalue="TestNG.TestMethods" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.C:/Users/HHRA1231/IdeaProjects/AdvancedFramework/testng.xml" />
-        <item itemvalue="TestNG.TestMethods" />
+        <item itemvalue="TestNG.LoginTest (1)" />
+        <item itemvalue="TestNG.InValidLoginTest" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -117,5 +254,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
