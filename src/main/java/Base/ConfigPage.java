@@ -43,6 +43,7 @@ public abstract class ConfigPage {
             System.out.println("Failed!");
             System.out.println("Exception is: "+result.getThrowable());
             ExtentTestManager.getExtentTest().getExtent().removeTest(ExtentTestManager.getExtentTest());
+            ExtentTestManager.getExtentTest().log(Status.FAIL, result.getMethod().getMethodName()+" is Failed");
         } else {
             StringWriter sw = new StringWriter();
             result.getThrowable().printStackTrace(new PrintWriter(sw));

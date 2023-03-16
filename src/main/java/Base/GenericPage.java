@@ -30,7 +30,7 @@ public class GenericPage {
     }
 
     public void waitTillTheElementIsClickable(WebElement element){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
@@ -53,10 +53,10 @@ public class GenericPage {
         try {
             Select select = new Select(element);
             select.selectByValue(value);
-            ExtentLogger.info("Selected dropdown has been selected");
+            ExtentLogger.info(value+" is selected");
             System.out.println(value+" is selected");
         } catch (Exception e){
-            ExtentLogger.info("Selected dropdown is not found");
+            ExtentLogger.info(value+" is not selected");
             System.out.println(value+" is not found");
         }
     }
@@ -64,7 +64,7 @@ public class GenericPage {
     public boolean isElementDisplayed(WebElement locator){
         try {
             if (locator.isDisplayed())
-                System.out.println("Element is present on scree "+locator);
+                System.out.println("Element is present on screen "+locator);
             return  true;
         } catch (NoSuchElementException e){
             System.out.println("Element is not present on screen "+locator);

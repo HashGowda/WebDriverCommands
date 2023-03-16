@@ -22,6 +22,8 @@ public class ExtentManager {
             spark.config().setTheme(Theme.DARK);
             spark.config().setDocumentTitle("Automation Report");
             spark.config().setReportName("Selenium Report");
+//            test = extent.createTest("Test Case");
+//            test.createNode("Report");
         }
     }
 

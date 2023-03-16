@@ -6,22 +6,15 @@
       <class name="Tests.LoginTest">
         <methods>
           <include name="LoginTest"/>
-          <include name="MyInfoTest"/>
           <include name="afterClass"/>
-          <include name="beforeMethod"/>
+          <include name="MyInfoTest"/>
+          <include name="beforeTest"/>
+          <include name="myTest"/>
+          <include name="afterTest"/>
           <include name="beforeClass"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- Tests.LoginTest -->
-      <class name="Tests.InValidLoginTest">
-        <methods>
-          <include name="afterClass"/>
-          <include name="InvalidLogin"/>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- Tests.InValidLoginTest -->
     </classes>
   </test> <!-- Parallel Test(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

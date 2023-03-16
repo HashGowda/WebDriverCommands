@@ -4,22 +4,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class MyInfoPage {
-//    WebDriver driver;
-//
-//    public MyInfoPage(WebDriver driver) {
-//        this.driver = DriverPage.getDriver();
-//    }
 
-    @FindBy(xpath = "(//input)[5]")
+    @FindBy(xpath = "(//input[contains(@class,'oxd-input')])[5]")
     public WebElement nickName;
 
-    @FindBy(xpath = "(//input)[7]")
+    @FindBy(xpath = "(//input[contains(@class,'oxd-input')])[7]")
     public WebElement otherID;
 
-    @FindBy(xpath = "(//i)[6]")
+    @FindBy(xpath = "(//i[contains(@class,'oxd-icon')])[6]")
     public WebElement nationality;
 
-    @FindBy(xpath = "(//i)[7]")
+    @FindBy(xpath = "(//i[contains(@class,'oxd-icon')])[7]")
     public WebElement maritalStatus;
 
     @FindBy(xpath = "//label[normalize-space()='Female']")
@@ -28,20 +23,10 @@ public class MyInfoPage {
     @FindBy(xpath = "(//button[contains(@type,'submit')])[1]")
     public WebElement saveBtn;
 
-    @FindBy(xpath = "//*[text()='-- Select --']")
+    @FindBy(xpath = "(//i[contains(@class,'oxd-icon')])[10]")
     public WebElement bloodType;
 
-//    public void addData(String nckName, String id, String value, String status, String bldTyp) {
-//        try {
-//            driver.findElement((By) nickName).sendKeys(nckName);
-//            driver.findElement((By) otherID).sendKeys(id);
-//            driver.findElement((By) nationality).sendKeys(value);
-//            driver.findElement((By) maritalStatus).sendKeys(status);
-//            driver.findElement((By) femaleRadioBtn).click();
-//            driver.findElement((By) saveBtn).click();
-//            driver.findElement((By) bloodType).sendKeys(bldTyp);
-//        } catch (Exception e) {
-//            System.out.println("Exceptions Caught: " + e.getMessage());
-//        }
-//    }
+    @FindBy(xpath = "(//button[contains(@type,'submit')])[2]")
+    public WebElement sveBtn;
+
 }

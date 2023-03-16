@@ -2,6 +2,7 @@ package Base;
 
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
@@ -11,8 +12,7 @@ public class ActionPage implements DetailsPage {
     GenericPage genPage;
     MyInfoPage myInfoPage = new MyInfoPage();;
     LoginPage loginPage = new LoginPage();
-//    private WebElement loginBtn;
-//    private WebElement myInfo;
+
 
     public ActionPage(){
         this.driver= DriverPage.getDriver();
@@ -23,7 +23,7 @@ public class ActionPage implements DetailsPage {
         PageFactory.initElements(driver, myInfoPage);
     }
 
-    public void validLogin() throws InterruptedException{
+    public void validLogin(){
         try {
             genPage.sendKeys(loginPage.userName, userName, "Username");
             Reporter.log("Username is entered");
@@ -31,40 +31,51 @@ public class ActionPage implements DetailsPage {
             Reporter.log("Password is entered");
             genPage.waitAndClick(loginPage.loginBtn,"Login Button");
             Reporter.log("Login Button is clicked");
+            genPage.isElementDisplayed(loginPage.myInfo);
+            Reporter.log("Element is present on screen");
             genPage.waitAndClick(loginPage.myInfo, "My Info Button");
-            Reporter.log("My Info tab is clicked");
-        }catch (Exception e){
+            Reporter.log("My Info is clicked");
+            myInfoTab();
+        } catch (Exception e){
             e.printStackTrace();
         }
     }
 
-    public void invalidLogin() throws InterruptedException {
+    public void invalidLogin()  {
         try {
             genPage.sendKeys(loginPage.userName, userName,"Username");
+            Reporter.log("Username is entered");
             genPage.sendKeys(loginPage.password, invalidPassword,"Password");
+            Reporter.log("Password is entered");
             genPage.waitAndClick(loginPage.loginBtn,"Login Button");
+            Reporter.log("Login Button is clicked");
             Reporter.log("Entered incorrect credentials");
             genPage.isElementPresentAssertTrue(loginPage.myInfo);
             Reporter.log("No such element is found");
-        } catch (NoSuchElementException e){
+        } catch (Exception e){
             e.printStackTrace();
         }
     }
 
-    public void myInfoTab() throws InterruptedException{
+    public void myInfoTab() {
         try {
             genPage.sendKeys(myInfoPage.nickName, nickName, "Nickname");
-            Reporter.log("Nick is entered");
+            Reporter.log("Nickname is entered");
             genPage.sendKeys(myInfoPage.otherID, otherID, "OtherID");
             Reporter.log("ID is entered");
-            genPage.selectDropdown(myInfoPage.nationality, "Nationality");
+            genPage.selectDropdown(myInfoPage.nationality, "India");
             Reporter.log("Nationality is selected");
-            genPage.selectDropdown(myInfoPage.maritalStatus, "Marital Status");
+            genPage.selectDropdown(myInfoPage.maritalStatus, "Other");
             Reporter.log("Marital Status is selected");
             genPage.waitAndClick(myInfoPage.femaleRadioBtn, "Radio Button");
             Reporter.log("Radio Button is selected");
+            genPage.scrollDown();
             genPage.waitAndClick(myInfoPage.saveBtn, "Save Button");
             Reporter.log("Save Button is clicked");
+            genPage.selectDropdown(myInfoPage.bloodType, "B-");
+            Reporter.log("Bolls Type is selected");
+            genPage.waitAndClick(myInfoPage.sveBtn, "Save Button");
+            genPage.scrollUp();
         } catch (Exception e){
             e.printStackTrace();
         }
