@@ -18,6 +18,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.SkipException;
 import org.testng.annotations.*;
 
 import java.awt.*;
@@ -49,10 +50,16 @@ public class TestBase {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-
     }
 
-    @Test
+    @AfterTest
+    public void tearDown()throws Exception{
+        driver.close();
+        extent.flush();
+        Desktop.getDesktop().browse(new File("ExtentReport/Report.html").toURI());
+    }
+
+    @Test(priority = 2)
     public void login(ITestResult result) throws IOException {
         try {
             test.log(Status.INFO,"Login test is started");
@@ -67,7 +74,7 @@ public class TestBase {
         }
     }
 
-    @Test
+    @Test(priority = 1)
     public void validateTitle(ITestResult result) throws Exception {
         if (result.getStatus() == ITestResult.SUCCESS) {
             test.log(Status.INFO, (" Title validation is started"));
@@ -83,12 +90,18 @@ public class TestBase {
         }
     }
 
-    @Test
+    @Test(priority = 3)
     public void testCase(){
-        test = extent.createTest("Login Test");
+        test = extent.createTest("Login Test").assignAuthor("Harish").assignCategory("Functional Test").assignDevice("Chrome");
         test.log(Status.INFO, "Site is opened");
         assertEquals(driver.getTitle(),"OrangeHR");
         test.log(Status.PASS,"Site loaded successfully");
+    }
+
+    @Test(priority = 4)
+    public void skipTest(){
+        test.log(Status.SKIP,"Skip test");
+        throw new SkipException("This test is skipped");
     }
 
     @AfterMethod
@@ -104,16 +117,6 @@ public class TestBase {
         }
     }
 
-    @AfterTest
-    public void testEnd()throws Exception{
-        extent.flush();
-        Desktop.getDesktop().browse(new File("ExtentReport/Report.html").toURI());
-    }
-
-    @AfterClass
-    public void tearDown() throws Exception{
-        driver.close();
-    }
 
     public String captureScreenshot(WebDriver driver) throws IOException {
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

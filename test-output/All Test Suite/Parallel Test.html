@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Parallel Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Mar 16 15:48:29 IST 2023</td>
+<td>Started on:</td><td>Fri Mar 17 10:06:18 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4306 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5453 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,48 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='Tests.LoginTest.beforeTest()'><b>beforeTest</b><br>Test class: Tests.LoginTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated beforeTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace646910062", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace646910062'><pre>org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated beforeTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:632)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>-1679027778</td>
+<td>Tests.LoginTest@96def03</td></tr>
+<tr>
 <td title='Tests.LoginTest.afterTest()'><b>afterTest</b><br>Test class: Tests.LoginTest</td>
 <td><div><pre>org.testng.TestNGException: 
 Can inject only one of &lt;ITestContext, XmlTest&gt; into a @AfterTest annotated afterTest.
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1710814638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1710814638'><pre>org.testng.TestNGException: 
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1603177117", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1603177117'><pre>org.testng.TestNGException: 
 Can inject only one of &lt;ITestContext, XmlTest&gt; into a @AfterTest annotated afterTest.
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
@@ -107,42 +141,8 @@ For more information on native dependency injection please refer to https://test
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
-<td>-1678961914</td>
-<td>Tests.LoginTest@78e117e3</td></tr>
-<tr>
-<td title='Tests.LoginTest.beforeTest()'><b>beforeTest</b><br>Test class: Tests.LoginTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated beforeTest.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1231799381", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1231799381'><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated beforeTest.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:632)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>-1678961909</td>
-<td>Tests.LoginTest@78e117e3</td></tr>
+<td>-1679027783</td>
+<td>Tests.LoginTest@96def03</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -153,25 +153,35 @@ For more information on native dependency injection please refer to https://test
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.LoginTest.myTest()'><b>myTest</b><br>Test class: Tests.LoginTest</td>
+<td title='Tests.InValidLoginTest.afterMethod()'><b>afterMethod</b><br>Test class: Tests.InValidLoginTest</td>
 <td></td>
 <td>0</td>
-<td>Tests.LoginTest@78e117e3</td></tr>
-<tr>
-<td title='Tests.LoginTest.myTest()'><b>myTest</b><br>Test class: Tests.LoginTest</td>
-<td></td>
-<td>0</td>
-<td>Tests.LoginTest@78e117e3</td></tr>
+<td>Tests.InValidLoginTest@4ddced80</td></tr>
 <tr>
 <td title='Tests.LoginTest.afterMethod()'><b>afterMethod</b><br>Test class: Tests.LoginTest</td>
 <td></td>
 <td>0</td>
-<td>Tests.LoginTest@78e117e3</td></tr>
+<td>Tests.LoginTest@96def03</td></tr>
+<tr>
+<td title='Tests.LoginTest.myTest()'><b>myTest</b><br>Test class: Tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>Tests.LoginTest@96def03</td></tr>
+<tr>
+<td title='Tests.LoginTest.myTest()'><b>myTest</b><br>Test class: Tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>Tests.LoginTest@96def03</td></tr>
+<tr>
+<td title='Tests.InValidLoginTest.myTest()'><b>myTest</b><br>Test class: Tests.InValidLoginTest</td>
+<td></td>
+<td>0</td>
+<td>Tests.InValidLoginTest@4ddced80</td></tr>
 <tr>
 <td title='Tests.LoginTest.afterMethod()'><b>afterMethod</b><br>Test class: Tests.LoginTest</td>
 <td></td>
 <td>0</td>
-<td>Tests.LoginTest@78e117e3</td></tr>
+<td>Tests.LoginTest@96def03</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -188,8 +198,8 @@ Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotate
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace398002405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace398002405'><pre>org.testng.TestNGException: 
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace764255849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace764255849'><pre>org.testng.TestNGException: 
 Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated beforeTest.
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
@@ -214,7 +224,7 @@ For more information on native dependency injection please refer to https://test
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>0</td>
-<td>Tests.LoginTest@78e117e3</td></tr>
+<td>Tests.LoginTest@96def03</td></tr>
 <tr>
 <td title='Tests.LoginTest.MyInfoTest()'><b>MyInfoTest</b><br>Test class: Tests.LoginTest</td>
 <td><div><pre>org.testng.TestNGException: 
@@ -222,8 +232,8 @@ Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotate
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2122554028", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2122554028'><pre>org.testng.TestNGException: 
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1072843319", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1072843319'><pre>org.testng.TestNGException: 
 Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated beforeTest.
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
@@ -248,7 +258,41 @@ For more information on native dependency injection please refer to https://test
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>0</td>
-<td>Tests.LoginTest@78e117e3</td></tr>
+<td>Tests.LoginTest@96def03</td></tr>
+<tr>
+<td title='Tests.InValidLoginTest.InvalidLogin()'><b>InvalidLogin</b><br>Test class: Tests.InValidLoginTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated beforeTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace459771741", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace459771741'><pre>org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated beforeTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:632)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>0</td>
+<td>Tests.InValidLoginTest@4ddced80</td></tr>
 </table><p>
 </body>
 </html>
