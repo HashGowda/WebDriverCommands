@@ -1,41 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="3" skipped="1">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-17T17:55:11 IST" name="All Test Suite" finished-at="2023-03-17T17:55:51 IST" duration-ms="40250">
+  <suite started-at="2023-03-21T15:42:04 IST" name="All Test Suite" finished-at="2023-03-21T15:42:11 IST" duration-ms="6385">
     <groups>
     </groups>
-    <test started-at="2023-03-17T17:55:11 IST" name="Extent Report Test" finished-at="2023-03-17T17:55:51 IST" duration-ms="40250">
-      <class name="Report.TestBase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Report.TestBase@1460a8c0]" started-at="2023-03-17T17:55:11 IST" name="setUp" finished-at="2023-03-17T17:55:49 IST" duration-ms="38780" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateTitle(org.testng.ITestResult)[pri:1, instance:Report.TestBase@1460a8c0]" started-at="2023-03-17T17:55:49 IST" name="validateTitle" finished-at="2023-03-17T17:55:49 IST" duration-ms="0" status="FAIL">
+    <test started-at="2023-03-21T15:42:04 IST" name="Puma Test" finished-at="2023-03-21T15:42:11 IST" duration-ms="6385">
+      <class name="Tests.PumaSearchPage">
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:Tests.PumaSearchPage@105fece7]" started-at="2023-03-21T15:42:04 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679393524874" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
-Cannot inject @Test annotated Method [validateTitle] with [interface org.testng.ITestResult].
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated beforeTest.
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
-Cannot inject @Test annotated Method [validateTitle] with [interface org.testng.ITestResult].
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated beforeTest.
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
 at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
@@ -53,32 +43,34 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTitle -->
-        <test-method signature="login(org.testng.ITestResult)[pri:2, instance:Report.TestBase@1460a8c0]" started-at="2023-03-17T17:55:49 IST" name="login" finished-at="2023-03-17T17:55:49 IST" duration-ms="0" status="FAIL">
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Tests.PumaSearchPage@105fece7]" started-at="2023-03-21T15:42:04 IST" name="beforeClass" finished-at="2023-03-21T15:42:11 IST" duration-ms="6360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PumaSearchPage@105fece7]" started-at="2023-03-21T15:42:11 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679393531253" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="pumaTest()[pri:0, instance:Tests.PumaSearchPage@105fece7]" started-at="2023-03-21T15:42:11 IST" name="pumaTest" finished-at="2023-03-21T15:42:11 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
-Cannot inject @Test annotated Method [login] with [interface org.testng.ITestResult].
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated beforeTest.
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
-Cannot inject @Test annotated Method [login] with [interface org.testng.ITestResult].
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated beforeTest.
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
 at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
@@ -96,27 +88,27 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="testCase()[pri:3, instance:Report.TestBase@1460a8c0]" started-at="2023-03-17T17:55:49 IST" name="testCase" finished-at="2023-03-17T17:55:49 IST" duration-ms="11" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        </test-method> <!-- pumaTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Tests.PumaSearchPage@105fece7]" started-at="2023-03-21T15:42:11 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679393531254" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Tests.PumaSearchPage@105fece7]" started-at="2023-03-21T15:42:11 IST" name="afterClass" finished-at="2023-03-21T15:42:11 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[expected:<OrangeHRM> but was:<OrangeHR>]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because the return value of "PumaTest.PumaDriver.getDriver()" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<OrangeHRM> but was:<OrangeHR>
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
-at Report.TestBase.testCase(TestBase.java:97)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because the return value of "PumaTest.PumaDriver.getDriver()" is null
+at PumaTest.PumaBase.afterClass(PumaBase.java:53)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
@@ -134,42 +126,29 @@ at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Report.TestBase@1460a8c0]" started-at="2023-03-17T17:55:49 IST" name="getResult" finished-at="2023-03-17T17:55:50 IST" duration-ms="109" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCase status=FAILURE method=TestBase.testCase()[pri:3, instance:Report.TestBase@1460a8c0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="skipTest()[pri:4, instance:Report.TestBase@1460a8c0]" started-at="2023-03-17T17:55:50 IST" name="skipTest" finished-at="2023-03-17T17:55:50 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.SkipException">
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestResult)[pri:0, instance:Tests.PumaSearchPage@105fece7]" started-at="2023-03-21T15:42:11 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679393531257" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[This test is skipped]]>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated afterTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: This test is skipped
-at Report.TestBase.skipTest(TestBase.java:104)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated afterTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
@@ -184,26 +163,11 @@ at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- skipTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Report.TestBase@1460a8c0]" started-at="2023-03-17T17:55:50 IST" name="getResult" finished-at="2023-03-17T17:55:50 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=skipTest status=SKIP method=TestBase.skipTest()[pri:4, instance:Report.TestBase@1460a8c0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Report.TestBase@1460a8c0]" started-at="2023-03-17T17:55:50 IST" name="tearDown" finished-at="2023-03-17T17:55:51 IST" duration-ms="1331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Report.TestBase -->
-    </test> <!-- Extent Report Test -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.PumaSearchPage -->
+    </test> <!-- Puma Test -->
   </suite> <!-- All Test Suite -->
 </testng-results>

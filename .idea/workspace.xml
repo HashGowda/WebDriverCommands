@@ -5,20 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cb5c60f-7f48-4a2f-988a-ad955c60eefb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Report/NewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaFramework/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaFramework/GenFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaFramework/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaFramework/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaFramework/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaExtentLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaExtentTestParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PumaTest/PumaLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/PumaSearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/Image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/Report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReport/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/Spark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Report/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Report/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Parallel Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/Parallel Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Parallel Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/Parallel Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.InValidLoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.InValidLoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.LoginTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
@@ -53,21 +62,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/Software Testing/Java/AdvancedFramework",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Software Testing/Java/AdvancedFramework&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HHRA1231\IdeaProjects\AdvancedFramework\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/HHRA1231/IdeaProjects/AdvancedFramework/testng.xml">
+  <component name="RunManager" selected="TestNG.TestClass">
     <configuration name="C:/Users/HHRA1231/IdeaProjects/AdvancedFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvancedFramework" />
       <shortenClasspath name="NONE" />
@@ -88,16 +97,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PumaSearchPage (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvancedFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Report.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Report" />
-      <option name="MAIN_CLASS_NAME" value="Report.NewTest" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.PumaSearchPage" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -105,16 +114,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBase (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PumaSearchPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvancedFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Report.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Report" />
-      <option name="MAIN_CLASS_NAME" value="Report.TestBase" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.PumaSearchPage" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -122,16 +131,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBase (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvancedFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Report.*" />
+          <option name="PATTERN" value="PumaFramework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Report" />
-      <option name="MAIN_CLASS_NAME" value="Report.TestBase" />
+      <option name="PACKAGE_NAME" value="PumaFramework" />
+      <option name="MAIN_CLASS_NAME" value="PumaFramework.TestClass" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -139,17 +148,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBase" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.homePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdvancedFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Report.*" />
+          <option name="PATTERN" value="PumaFramework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Report" />
-      <option name="MAIN_CLASS_NAME" value="Report.TestBase" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="PumaFramework" />
+      <option name="MAIN_CLASS_NAME" value="PumaFramework.TestClass" />
+      <option name="METHOD_NAME" value="homePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -178,19 +188,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.NewTest" />
-      <item itemvalue="TestNG.TestBase" />
-      <item itemvalue="TestNG.TestBase (1)" />
-      <item itemvalue="TestNG.TestBase (4)" />
+      <item itemvalue="TestNG.PumaSearchPage" />
+      <item itemvalue="TestNG.PumaSearchPage (2)" />
+      <item itemvalue="TestNG.TestClass" />
+      <item itemvalue="TestNG.TestClass.homePage" />
       <item itemvalue="TestNG.C:/Users/HHRA1231/IdeaProjects/AdvancedFramework/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestClass" />
+        <item itemvalue="TestNG.TestClass.homePage" />
         <item itemvalue="TestNG.C:/Users/HHRA1231/IdeaProjects/AdvancedFramework/testng.xml" />
-        <item itemvalue="TestNG.TestBase" />
-        <item itemvalue="TestNG.NewTest" />
-        <item itemvalue="TestNG.TestBase (1)" />
-        <item itemvalue="TestNG.TestBase (4)" />
+        <item itemvalue="TestNG.PumaSearchPage" />
+        <item itemvalue="TestNG.PumaSearchPage (2)" />
       </list>
     </recent_temporary>
   </component>

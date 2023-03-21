@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
-              <span class="suite-name border-failed">All Test Suite</span>
+              <span class="suite-name border-skipped">All Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,31 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 3 failed,  1 skipped,  </span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
-                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-All_Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="Report.TestBase" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="Report.TestBase" class="method navigator-link" hash-for-method="testCase">testCase</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="Report.TestBase" class="method navigator-link" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -128,7 +104,7 @@
                     <div class="method-list-content skipped suite-All_Test_Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="Report.TestBase" class="method navigator-link" hash-for-method="skipTest">skipTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Tests.PumaSearchPage" class="method navigator-link" hash-for-method="pumaTest">pumaTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-All_Test_Suite -->
@@ -143,73 +119,23 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
-          <div class="suite-All_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Report.TestBase</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testCase">
-                  </a> <!-- testCase -->
-                  <span class="method-name">testCase</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;OrangeHRM&gt; but was:&lt;OrangeHR&gt;
-	at Report.TestBase.testCase(TestBase.java:97)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateTitle">
-                  </a> <!-- validateTitle -->
-                  <span class="method-name">validateTitle</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-failed -->
           <div class="suite-All_Test_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">Report.TestBase</span>
+              <span class="class-name">Tests.PumaSearchPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="skipTest">
-                  </a> <!-- skipTest -->
-                  <span class="method-name">skipTest</span>
-                  <div class="stack-trace">org.testng.SkipException: This test is skipped
-	at Report.TestBase.skipTest(TestBase.java:104)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+                  <a name="pumaTest">
+                  </a> <!-- pumaTest -->
+                  <span class="method-name">pumaTest</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated beforeTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 22 stack frames
+... Removed 18 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -225,18 +151,15 @@ For more information on native dependency injection please refer to https://test
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Extent Report Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Puma Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Report.TestBase&quot;&gt;
+      &lt;class name=&quot;Tests.PumaSearchPage&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;validateTitle&quot;/&gt;
-          &lt;include name=&quot;login&quot;/&gt;
-          &lt;include name=&quot;testCase&quot;/&gt;
-          &lt;include name=&quot;skipTest&quot;/&gt;
+          &lt;include name=&quot;pumaTest&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- Report.TestBase --&gt;
+      &lt;/class&gt; &lt;!-- Tests.PumaSearchPage --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Extent Report Test --&gt;
+  &lt;/test&gt; &lt;!-- Puma Test --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -248,7 +171,7 @@ For more information on native dependency injection please refer to https://test
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Extent Report Test (1 class)</span>
+                <span class="test-name">Puma Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -274,28 +197,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCase')
-data.setCell(0, 2, 'Report.TestBase')
-data.setCell(0, 3, 11);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login')
-data.setCell(1, 2, 'Report.TestBase')
-data.setCell(1, 3, 0);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateTitle')
-data.setCell(2, 2, 'Report.TestBase')
-data.setCell(2, 3, 0);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'skipTest')
-data.setCell(3, 2, 'Report.TestBase')
-data.setCell(3, 3, 0);
+data.setCell(0, 1, 'pumaTest')
+data.setCell(0, 2, 'Tests.PumaSearchPage')
+data.setCell(0, 3, 0);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 ms</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -321,33 +232,29 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Report.TestBase</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp</span>
+              <div class="chronological-class-name">Tests.PumaSearchPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6366 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
+                <span class="method-name">pumaTest</span>
+                <span class="method-start">6367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">6367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testCase</span>
-                <span class="method-start">38795 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=testCase status=FAILURE method=TestBase.testCase()[pri:3, instance:Report.TestBase@...)</span>
-                <span class="method-start">38807 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">skipTest</span>
-                <span class="method-start">38917 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=skipTest status=SKIP method=TestBase.skipTest()[pri:4, instance:Report.TestBase@146...)</span>
-                <span class="method-start">38917 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">38918 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-name">afterClass</span>
+                <span class="method-start">6368 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

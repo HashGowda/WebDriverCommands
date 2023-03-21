@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test name="Extent Report Test">
+    <test name="Puma Test">
         <classes>
-            <class name="Report.TestBase">
+            <class name="Tests.PumaSearchPage">
                 <methods>
-                    <include name="validateTitle"/>
-                    <include name="login"/>
-                    <include name="testCase"/>
-                    <include name="skipTest"/>
+                    <include name="pumaTest"/>
                 </methods>
             </class>
         </classes>
